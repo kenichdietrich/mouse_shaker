@@ -1,0 +1,16 @@
+[project]
+name = "mouse_shaker"
+description = "Module for automatic mouse shaking"
+readme = "README.md"
+license = { file = "LICENCE" }
+version = "0.0.0"
+authors = [{ name = "kenichdietrich", email = "kenichdietrich@gmail.com" }]
+dependencies = ["pyautogui>=0.9"]
+requires-python = ">=3.8"
+
+[project.scripts]
+mouse-shaker = "mouse_shaker:cli_main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
