@@ -2,7 +2,7 @@
 name = "mouse_shaker"
 description = "Module for automatic mouse shaking"
 readme = "README.md"
-license = { file = "LICENCE" }
+license = { file = "LICENSE" }
 version = "0.0.0"
 authors = [{ name = "kenichdietrich", email = "kenichdietrich@gmail.com" }]
 dependencies = ["pyautogui>=0.9"]
